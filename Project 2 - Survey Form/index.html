@@ -1,0 +1,57 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <h1 id="title">This is a survey form!</h1>
+  <p id="description">Please fill out the information below honestly (it is anonymous)</p>
+
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label> 
+    <input type="text" placeholder="Name" id="name" name="name" required>
+    <br>
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" placeholder="John@email.com"       name="email" required>
+    <br>
+    <label for="favNumber" id="number-label">Favorite Number:</label>
+    <input type="number" id="number" name="favNumber" placeholder="13" min="1" max="20">
+    <br>
+    <label for="games" id="dropdown-label">Favorite Game:</label>
+   <select name="games" id="dropdown">
+    <option value="Halo">Halo</option>
+    <option value="Halo">World of WarCraft</option>
+    <option value="Halo">Skyrim</option>
+    <option value="Halo">Dungeons and Dragons</option>
+   </select>
+    <p>What gender are you?:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <br>
+    <br>
+    
+    <label for="checkbox">Do you have any children?</label>
+    <br>
+    <input type="checkbox" id="daughters" name="daughters" value="Daughters">
+<label for="daughters"> I have daughters</label>
+ <br>
+<input type="checkbox" id="sons" name="sons" value="Sons">
+<label for="sons"> I have sons</label>
+  <br>
+<input type="checkbox" id="cat" name="cat" value="Cat">
+<label for="cat"> I have a cat</label>
+  <br>
+  <br>
+    <label for="additionalComments">Additional Comments:</label>
+    <textarea>This is where additional information goes!</textarea>
+    <br>
+    <br>
+    <input type="submit" name="Submit" value="Submit" id="submit">
+    
+  </form>
+  
+  
+
+
