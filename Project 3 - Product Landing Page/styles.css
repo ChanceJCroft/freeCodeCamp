@@ -1,0 +1,17 @@
+header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: green;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  
+  @media screen and (max-width: 400px) {
+    color: green;
+  }
