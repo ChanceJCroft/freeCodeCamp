@@ -1,0 +1,16 @@
+#welcome-section {
+    min-height: 100vh;
+  }
+  #nav-header {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      color: green;
+  }
+  
+    @media screen and (max-width: 400px) {
+      header {
+        color: blue;
+      }
+    }
