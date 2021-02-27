@@ -1,0 +1,19 @@
+main {
+    display: grid;
+    grid-template-areas:
+      "nav header header"
+      "nav content content"
+      "nav content content"
+      "footer footer footer"
+  }
+  
+  #navbar {
+    display: grid;
+    grid-area: nav;
+  }
+  
+  @media (max-width: 400px) {
+    main {
+      background: green;
+    }
+  }
